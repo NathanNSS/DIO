@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desafio CSS 02</title>
+
+    <!-- Fontes Roboto do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Icones do phosphor-icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-header">
+        <div id="container-logo">
+            <button type="button" class="buttons-avatars">
+                <i class="ph-bold ph-list"></i>
+            </button>
+            <img src="/assets/images/youtube-1.svg" alt="logo">
+        </div>
+
+        <form id="container-input-search">
+            <div id="input-search">
+                <i class="ph-light ph-magnifying-glass"></i>
+                <input type="search" name="search" id="search">
+            </div>
+            <button type="button">
+                <i class="ph-light ph-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <div id="container-avatar">
+            <button type="button" class="buttons-avatars">
+                <i class="ph-light ph-video-camera"></i>
+            </button>
+            <button type="button" class="buttons-avatars">
+                <i class="ph-light ph-bell-simple"></i>
+            </button>
+            <button type="button" class="buttons-avatars">
+                <img class="avatar" src="http://github.com/nathannss.png" alt="avatar">
+            </button>
+        </div>
+    </header>
+    <section>
+        <main class="container-player">
+            <div class="container-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0IY5TJwAbcQ?si=1JilPPsRFRBUTfBH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <h1 class="title-video">
+                Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS
+            </h1>
+
+            <div class="actions-video">
+                <div class="channel">
+                    <img src="/assets/images/channel-avatar.png" alt="imagem canal">
+                    <div class="info-channel">
+                        <p class="text-semibold">
+                            DIO
+                        </p>
+                        <p>
+                            83,3 mil inscritos
+                        </p>
+                    </div>
+                </div>
+
+                <button type="button" class="btn-subscribe">
+                    inscreva-se
+                </button>
+
+                <button type="button" class="container-actions text-semibold">
+                    <i class="ph ph-thumbs-up"></i>
+                    2 mil
+                </button>
+
+                <button type="button" class="container-actions text-semibold">
+                    <i class="ph ph-thumbs-down"></i>
+                    Não gostei
+                </button>
+
+                <button type="button" class="container-actions text-semibold">
+                    <i class="ph ph-share-network"></i>
+                    Compartilhar
+                </button>
+
+                <button type="button" class="container-actions text-semibold">
+                    <i class="ph ph-download-simple"></i>
+                    Download
+                </button>
+            </div>
+
+            <p class="text-semibold">
+                28.418 visualizações Transmitido ao vivo em 23 ago. de 2022
+            </p>
+
+            <p class="describe-video">
+                Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page
+                com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light
+                e dark) para explorarmos os mistérios do mundo invertido.
+            </p>
+        </main>
+        <aside class="container-related-videos">
+            <div class="related-video">
+                <img src="assets/images/thumb.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Geração Tech Unimed - BH - Ciência de Dados
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>2,1 mil visualizações </p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related-video">
+                <img src="assets/images/thumb2.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Scrum Talks
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>1,6 mil visualizações</p>
+                        <p>Transmitido há 3 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related-video">
+                <img src="assets/images/thumb3.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Machine Learning Avançado - Fast Track
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>1,7 mil visualizações</p>
+                        <p>Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related-video">
+                <img src="assets/images/thumb4.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Global Skills #2 - Project Planning
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>971 visualizações</p>
+                        <p>Transmitido há 5 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related-video">
+                <img src="assets/images/thumb5.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Como aprender a programar Python do ZERO
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>711 visualizações</p>
+                        <p>Transmitido há 6 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="related-video">
+                <img src="assets/images/thumb.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Geração Tech Unimed - BH - Ciência de Dados
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>2,1 mil visualizações </p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related-video">
+                <img src="assets/images/thumb2.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Scrum Talks
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>1,6 mil visualizações</p>
+                        <p>Transmitido há 3 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related-video">
+                <img src="assets/images/thumb3.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Machine Learning Avançado - Fast Track
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>1,7 mil visualizações</p>
+                        <p>Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related-video">
+                <img src="assets/images/thumb4.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Global Skills #2 - Project Planning
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>971 visualizações</p>
+                        <p>Transmitido há 5 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related-video">
+                <img src="assets/images/thumb5.png" alt="thumb">
+                <div class="related-video-info">
+                    <p class="title text-semibold">
+                        Como aprender a programar Python do ZERO
+                    </p>
+
+                    <p class="name-channel">
+                        DigitalInnovationOne
+                    </p>
+
+                    <div>
+                        <p>711 visualizações</p>
+                        <p>Transmitido há 6 dias</p>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+    </section>
+</body>
+
+</html>
