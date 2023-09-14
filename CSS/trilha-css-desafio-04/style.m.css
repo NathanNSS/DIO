@@ -1,0 +1,106 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .content-header{
+        width: 90%;
+        align-items: flex-start;
+        text-align: start;
+        padding: 70px 0;
+    }
+
+    .title-header{
+        font-size: 2rem;
+    }
+
+    .container-btn{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .background-header{
+        background-position: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .content-header{
+        width: 90%;
+        align-items: flex-start;
+        text-align: start;
+        padding: 70px 0;
+    }
+
+    .title-header{
+        font-size: 2rem;
+    }
+
+    .container-btn{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .background-header{
+        background-position: center;
+    }
+
+    .container-sections {
+        margin: 0 5vw;
+    }
+
+    .sections{
+        flex-direction: column;
+        margin: 40px 0 ;
+        gap: 27px;
+    }
+    .sections:nth-child(2){
+        flex-direction: column-reverse;
+    }
+
+    .container-img-section {
+        width: 100%;
+        flex: 1;
+    }
+    
+    .section-text-container {
+        flex: 1;
+        gap: 27px;
+    }
+
+    .title-section {
+        width: 100%;
+        font: var(--font-subtitle);
+        font-size: 1.5rem;
+        color: var(--color-black-light);
+    }
+    
+    .text-section {
+        width: 100%;
+        font: var(--font-text);
+    }
+
+    .section-special{
+        display: flex;
+        flex-direction: column;
+        gap:27px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+        text-align: start;
+    }
+
+    .title-section-special{
+        width: 100%;
+        font-size: 2rem;
+    }
+    
+    .text-section-special{
+        width: 100%;
+    }
+
+}
